@@ -21,6 +21,6 @@ Since we are focusing on the Lexical features of the URL a python helper program
 **Urlparse** - This helps in breaking down the URL into scheme (http/https etc), netloc(domain and subdomain), path( file path), params (GET parameters), query(set of arguments) and fragment. 
 **Tldextract** - This helps in accurately extracting domain, subdomain and suffix ( .com, .in etc) from the URL.
 
-! [Dataset after preprocessing][https://github.com/paipradeep/AntiPhishingDL/processed.png]
+! [Dataset after preprocessing][https://www.github.com/paipradeep/AntiPhishingDL/processed.png]
 
 
