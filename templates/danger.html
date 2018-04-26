@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Safe Browser</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .bgimg{
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                min-height: 100%;
+                background-image: url();
+            }
+        </style>
+    </head>
+    <body class="w3-black">
+        <div class="w3-center w3-container w3-padding">
+            <h1 class="w3-xxxlarge w3-red">Warning</h1><br><br><br>
+            <h4>The requested URL <span class="w3-white">{{url}}</span> is malicious</h4>
+            <br><br><br>
+            <a href="">
+                <button class="btn btn-success btn-lg">
+                    <i class="fa fa-check-circle"></i>  Back to safety
+                </button>
+            </a>
+            <a href={{url}}>
+                <button class="btn btn-danger btn-lg">
+                    <i class="fa fa-exclamation-triangle"></i>  Browse Anyway
+                </button>
+            </a>
+        </div>
+</html>
