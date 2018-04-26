@@ -18,7 +18,7 @@ This dataset consisted of 2 columns : **<URL , label >**
 
 Since we are focusing on the Lexical features of the URL a python helper program was written that extracted these Lexical features. This program made use of urlparse and tldextract python packages.
 
-__Urlparse__ - This helps in breaking down the URL into scheme (http/https etc), netloc(domain and subdomain), path( file path), params (GET parameters), query(set of arguments) and fragment. 
-__Tldextract __- This helps in accurately extracting domain, subdomain and suffix ( .com, .in etc) from the URL.
+**Urlparse** - This helps in breaking down the URL into scheme (http/https etc), netloc(domain and subdomain), path( file path), params (GET parameters), query(set of arguments) and fragment. 
+**Tldextract** - This helps in accurately extracting domain, subdomain and suffix ( .com, .in etc) from the URL.
 
 
